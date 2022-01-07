@@ -299,7 +299,7 @@
             elements[2].addEventListener('click', (evt) => {
                 let isovalue=evt.srcElement.value
                 let label=document.getElementById("isovalueSlider")
-                label.label="閥值:"+isovalue.toString()+"/500";
+                //label.label="閥值:"+isovalue.toString()+"/500";
                 console.log(label.value)
                 modelView.threshold=isovalue
                 modelView.updateModel()
